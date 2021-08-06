@@ -2,6 +2,6 @@ plot_sepal_length<- function(){
   plot(iris$Sepal.Length)
 }
 
-
-
-usethis::use_github(protocol = 'https', auth_token = Sys.getenv("GITHUB_PAT"))
+plot_sepal_width <- funtion(){
+  plot(iris$Sepal.Width)
+}
